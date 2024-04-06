@@ -16,7 +16,7 @@ try {
   $req_body = array(
     "card_number" => "4111111111111111",
     "cvv" => "123",
-    "email" => "culqi".uniqid()."@culqi.com", //email must not repeated
+    "email" => "culqi".uniqid()."@culqi.com",
     "expiration_month" => "7",
     "expiration_year" => $futureDate,
     "fingerprint" => uniqid(),
